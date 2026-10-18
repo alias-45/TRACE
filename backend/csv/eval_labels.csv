@@ -1,0 +1,47 @@
+incident_a,incident_b,linked,rationale
+I001,I002,True,"Both reach Customer Database: I001's user has access, I002's device UNKNOWN-DEV-771 connects to it"
+I001,I003,True,Same Customer Database path; I003 is the unmanaged device's network appearance
+I001,I004,False,"Unrelated: no shared device, user or sensitive service"
+I001,I005,False,"Unrelated: no shared device, user or sensitive service"
+I001,I006,False,"Unrelated: no shared device, user or sensitive service"
+I001,I007,False,"Unrelated: no shared device, user or sensitive service"
+I001,I008,False,"Unrelated: no shared device, user or sensitive service"
+I001,I009,False,"Unrelated: no shared device, user or sensitive service"
+I002,I003,True,Same unmanaged device UNKNOWN-DEV-771 (D006)
+I002,I004,False,"Unrelated: no shared device, user or sensitive service"
+I002,I005,False,"Unrelated: no shared device, user or sensitive service"
+I002,I006,False,"Unrelated: no shared device, user or sensitive service"
+I002,I007,False,"Unrelated: no shared device, user or sensitive service"
+I002,I008,False,"Unrelated: no shared device, user or sensitive service"
+I002,I009,False,"Unrelated: no shared device, user or sensitive service"
+I003,I004,False,"Unrelated: no shared device, user or sensitive service"
+I003,I005,False,"Unrelated: no shared device, user or sensitive service"
+I003,I006,False,"Unrelated: no shared device, user or sensitive service"
+I003,I007,False,"Unrelated: no shared device, user or sensitive service"
+I003,I008,False,"Unrelated: no shared device, user or sensitive service"
+I003,I009,False,"Unrelated: no shared device, user or sensitive service"
+I004,I005,False,"DECOY (same device): shared lobby kiosk, benign unrelated events two days apart, no access to any sensitive service"
+I004,I006,False,"Unrelated: no shared device, user or sensitive service"
+I004,I007,False,"Unrelated: no shared device, user or sensitive service"
+I004,I008,False,"Unrelated: no shared device, user or sensitive service"
+I004,I009,False,"Unrelated: no shared device, user or sensitive service"
+I005,I006,False,"Unrelated: no shared device, user or sensitive service"
+I005,I007,False,"Unrelated: no shared device, user or sensitive service"
+I005,I008,False,"Unrelated: no shared device, user or sensitive service"
+I005,I009,False,"Unrelated: no shared device, user or sensitive service"
+I006,I007,False,"DECOY (shared low-criticality service): both HR users can open the Internal Wiki, which all staff can"
+I006,I008,False,"Unrelated: no shared device, user or sensitive service"
+I006,I009,False,"Unrelated: no shared device, user or sensitive service"
+I007,I008,False,"Unrelated: no shared device, user or sensitive service"
+I007,I009,False,"Unrelated: no shared device, user or sensitive service"
+I008,I009,True,"Two Finance users with Vendor Payments access, alerts 1h apart, both payment-data related"
+I010,I011,True,Synthetic evaluation pair: shared device or service context suggests a possible relationship; validate against graph evidence.
+I010,I012,False,Synthetic evaluation pair: no shared device or service context is currently established; treat as unlinked unless new evidence appears.
+I011,I013,True,Synthetic evaluation pair: shared device or service context suggests a possible relationship; validate against graph evidence.
+I012,I014,False,Synthetic evaluation pair: no shared device or service context is currently established; treat as unlinked unless new evidence appears.
+I013,I015,False,Synthetic evaluation pair: no shared device or service context is currently established; treat as unlinked unless new evidence appears.
+I014,I016,True,Synthetic evaluation pair: shared device or service context suggests a possible relationship; validate against graph evidence.
+I015,I017,False,Synthetic evaluation pair: no shared device or service context is currently established; treat as unlinked unless new evidence appears.
+I016,I018,False,Synthetic evaluation pair: no shared device or service context is currently established; treat as unlinked unless new evidence appears.
+I017,I019,True,Synthetic evaluation pair: shared device or service context suggests a possible relationship; validate against graph evidence.
+I018,I020,False,Synthetic evaluation pair: no shared device or service context is currently established; treat as unlinked unless new evidence appears.
