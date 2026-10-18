@@ -185,7 +185,7 @@ import csv
 import json
 from pathlib import Path
 
-LABELS_CSV = Path(__file__).resolve().parent.parent / "csv" / "eval_labels.csv"
+LABELS_CSV = Path(__file__).resolve().parent / "csv" / "eval_labels.csv"
 CRITICAL = {"high", "critical"}
 
 
