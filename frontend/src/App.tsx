@@ -3,7 +3,7 @@ import CytoscapeComponent from 'react-cytoscapejs';
 import GraphAgentPanel from './GraphAgentPanel';
 import {Activity, AlertTriangle, ArrowDownRight, ArrowUpRight, Bell, BrainCircuit, Check, ChevronDown, CircleHelp, Clock3, Database, FileSearch, Filter, GitBranch, LayoutDashboard, Network, Play, Search, ShieldAlert, ShieldCheck, Sparkles, Terminal, UserRound, X} from 'lucide-react';
 
-const API=(import.meta as any).env.VITE_API_URL || 'http://localhost:8000';
+const API="https://trace-chi-ten.vercel.app/";
 const colors:any={User:'#d66bd5',Device:'#c58b3d',Service:'#4678f5',Alert:'#df4eb5',Incident:'#e05c7b',Memory:'#64b5f6',Task:'#e5d66e',Action:'#8acb22',Evidence:'#65cf86'};
 const isEdge=(e:any)=>e?.data?.source!=null&&e?.data?.target!=null;
 const cyStyle:any=[
