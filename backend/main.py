@@ -60,7 +60,7 @@ async def tenant_graph_scope(request, call_next):
         _current_tenant.reset(token)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"]
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "https://trace-m3rk.vercel.app/"]
     + [o.strip() for o in os.getenv("CORS_ORIGINS", "").split(",") if o.strip()],
     allow_credentials=True, allow_methods=["*"], allow_headers=["*"],
 )
