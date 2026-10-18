@@ -1,0 +1,20 @@
+user_id,name,department,risk_label
+U001,Maya Sharma,Finance,medium
+U002,Arjun Mehta,IT Operations,low
+U003,Neha Rao,Engineering,low
+U004,Dev Patel,Finance,high
+U005,Sara Khan,Security,low
+U006,Priya Nair,Marketing,low
+U007,Ravi Iyer,HR,low
+U008,Kiran Das,HR,low
+U009,Anita Joshi,Finance,medium
+U010,Omar Siddiqui,Finance,medium
+U011,Neha Kapoor,Finance,medium
+U012,Kabir Joshi,IT Operations,low
+U013,Isha Verma,Engineering,high
+U014,Rohan Das,Security,low
+U015,Ananya Rao,Customer Support,medium
+U016,Dev Malhotra,Engineering,high
+U017,Priya Nair,HR,low
+U018,Vikram Singh,Finance,high
+U019,Aarav Kulkarni,Finance,high

@@ -1,0 +1,21 @@
+incident_id,title,status,created_at,severity
+I001,Suspicious finance account activity,investigating,2026-10-15T09:02:00Z,high
+I002,Unusual service access,open,2026-10-15T10:14:00Z,medium
+I003,Unmanaged device connection,investigating,2026-10-15T11:06:00Z,high
+I004,Repeated login failures on shared kiosk,closed,2026-10-13T08:30:00Z,low
+I005,USB device warning on shared kiosk,closed,2026-10-15T14:00:00Z,low
+I006,Unusual wiki page edit,closed,2026-10-14T10:00:00Z,low
+I007,Wiki bulk export,closed,2026-10-15T15:20:00Z,low
+I008,Off-hours vendor payment access,open,2026-10-16T01:12:00Z,medium
+I009,Blocked vendor payment export,open,2026-10-16T02:03:00Z,medium
+I010,Unusual source repository access,contained,2026-10-16T03:00:00Z,high
+I011,Repeated MFA challenges,open,2026-10-16T03:17:00Z,medium
+I012,Endpoint protection disabled,open,2026-10-16T03:34:00Z,critical
+I013,Suspicious HR records query,investigating,2026-10-16T03:51:00Z,high
+I014,Unexpected build artifact download,contained,2026-10-16T04:08:00Z,medium
+I015,Privileged role assignment detected,open,2026-10-16T04:25:00Z,critical
+I016,Customer support data access anomaly,open,2026-10-16T04:42:00Z,medium
+I017,Possible lateral movement,investigating,2026-10-16T04:59:00Z,high
+I018,Unusual mobile device sign-in,contained,2026-10-16T05:16:00Z,medium
+I019,Blocked script execution,open,2026-10-16T05:33:00Z,high
+I020,Abnormal API request volume,open,2026-10-16T05:50:00Z,medium

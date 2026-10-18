@@ -1,0 +1,26 @@
+evidence_id,alert_id,source,observed_fact,confidence,verified
+E001,A001,identity_logs,Login location changed unusually within a short interval,0.91,True
+E002,A002,identity_logs,Repeated authentication failures preceded successful login,0.87,True
+E003,A003,service_audit,Unmanaged device attempted access to Customer Database,0.95,True
+E004,A004,network_monitor,Unknown device appeared on internal network segment,0.96,True
+E005,A005,access_logs,Privileged access attempt was denied,0.89,True
+E006,A006,network_monitor,Outbound connection was blocked by policy,0.84,True
+E007,A007,identity_logs,Authentication token used from an unusual device context,0.9,False
+E008,A008,configuration_audit,Access policy changed shortly before service access alert,0.78,False
+E009,A009,identity_logs,Several failed logins on a shared kiosk from different staff accounts,0.8,True
+E010,A010,endpoint_agent,Removable storage inserted on a shared kiosk,0.82,True
+E011,A011,app_audit,Wiki page edited outside the author's usual hours,0.7,True
+E012,A012,app_audit,Large number of wiki pages exported in one session,0.74,False
+E013,A013,service_audit,Vendor Payments accessed at 01:12 local time,0.88,True
+E014,A014,service_audit,Vendor payment export blocked by data-loss policy,0.9,True
+E015,A015,git_audit,Simulated telemetry recorded unusual repository clone associated with D012; requires analyst review,0.82,True
+E016,A016,identity_logs,Simulated telemetry recorded mfa push burst associated with D013; requires analyst review,0.86,True
+E017,A017,endpoint_agent,Simulated telemetry recorded endpoint protection disabled associated with D014; requires analyst review,0.9,False
+E018,A018,database_audit,Simulated telemetry recorded bulk hr query associated with D015; requires analyst review,0.93,True
+E019,A019,proxy_logs,Simulated telemetry recorded large artifact download associated with D016; requires analyst review,0.72,True
+E020,A020,identity_logs,Simulated telemetry recorded privilege assignment associated with D017; requires analyst review,0.76,False
+E021,A021,service_audit,Simulated telemetry recorded after hours record access associated with D018; requires analyst review,0.79,True
+E022,A022,network_flow,Simulated telemetry recorded east west connection spike associated with D019; requires analyst review,0.82,True
+E023,A023,identity_logs,Simulated telemetry recorded new device signin associated with D012; requires analyst review,0.86,False
+E024,A024,endpoint_agent,Simulated telemetry recorded script execution blocked associated with D013; requires analyst review,0.9,True
+E025,A025,api_gateway,Simulated telemetry recorded api rate spike associated with D014; requires analyst review,0.93,True

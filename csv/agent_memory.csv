@@ -1,0 +1,16 @@
+memory_id,incident_id,agent,memory_type,content,confidence,created_at
+M001,I001,investigator,finding,Repeated login failures and unusual token use involve device D004; token evidence is not yet verified.,0.82,2026-10-15T09:12:00Z
+M002,I001,verifier,caveat,Do not claim account compromise as confirmed until token use is independently verified.,0.94,2026-10-15T09:14:00Z
+M003,I002,investigator,finding,Unmanaged device D006 attempted access to critical Customer Database S004; no successful access is established in this dataset.,0.91,2026-10-15T10:20:00Z
+M004,I003,memory_agent,open_task,Determine whether D006's connection to S003 and S004 is one event or two separate attempts.,0.76,2026-10-15T11:12:00Z
+M010,I010,investigator,finding,Initial synthetic finding: unusual repository clone on D012; correlate with identity and service logs before confirming impact.,0.7,2026-10-16T03:00:00Z
+M011,I011,investigator,finding,Initial synthetic finding: mfa push burst on D013; correlate with identity and service logs before confirming impact.,0.75,2026-10-16T03:17:00Z
+M012,I012,investigator,finding,Initial synthetic finding: endpoint protection disabled on D014; correlate with identity and service logs before confirming impact.,0.8,2026-10-16T03:34:00Z
+M013,I013,investigator,finding,Initial synthetic finding: bulk hr query on D015; correlate with identity and service logs before confirming impact.,0.85,2026-10-16T03:51:00Z
+M014,I014,investigator,finding,Initial synthetic finding: large artifact download on D016; correlate with identity and service logs before confirming impact.,0.9,2026-10-16T04:08:00Z
+M015,I015,investigator,finding,Initial synthetic finding: privilege assignment on D017; correlate with identity and service logs before confirming impact.,0.7,2026-10-16T04:25:00Z
+M016,I016,investigator,finding,Initial synthetic finding: after hours record access on D018; correlate with identity and service logs before confirming impact.,0.75,2026-10-16T04:42:00Z
+M017,I017,investigator,finding,Initial synthetic finding: east west connection spike on D019; correlate with identity and service logs before confirming impact.,0.8,2026-10-16T04:59:00Z
+M018,I018,investigator,finding,Initial synthetic finding: new device signin on D012; correlate with identity and service logs before confirming impact.,0.85,2026-10-16T05:16:00Z
+M019,I019,investigator,finding,Initial synthetic finding: script execution blocked on D013; correlate with identity and service logs before confirming impact.,0.9,2026-10-16T05:33:00Z
+M020,I020,investigator,finding,Initial synthetic finding: api rate spike on D014; correlate with identity and service logs before confirming impact.,0.7,2026-10-16T05:50:00Z

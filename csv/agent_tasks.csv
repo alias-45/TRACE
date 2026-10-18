@@ -1,0 +1,15 @@
+task_id,incident_id,owner_agent,description,status,priority
+T001,I001,verifier,Verify suspicious token use,pending,high
+T002,I002,investigator,Determine whether access to Customer Database succeeded,pending,critical
+T003,I003,memory_agent,Correlate unmanaged device connections,in_progress,high
+T010,I010,verifier,Validate evidence and assess scope for unusual source repository access,in_progress,high
+T011,I011,correlator,Validate evidence and assess scope for repeated mfa challenges,pending,medium
+T012,I012,investigator,Validate evidence and assess scope for endpoint protection disabled,pending,critical
+T013,I013,verifier,Validate evidence and assess scope for suspicious hr records query,in_progress,high
+T014,I014,correlator,Validate evidence and assess scope for unexpected build artifact download,pending,medium
+T015,I015,investigator,Validate evidence and assess scope for privileged role assignment detected,pending,critical
+T016,I016,verifier,Validate evidence and assess scope for customer support data access anomaly,in_progress,medium
+T017,I017,correlator,Validate evidence and assess scope for possible lateral movement,pending,high
+T018,I018,investigator,Validate evidence and assess scope for unusual mobile device sign-in,pending,medium
+T019,I019,verifier,Validate evidence and assess scope for blocked script execution,in_progress,high
+T020,I020,correlator,Validate evidence and assess scope for abnormal api request volume,pending,medium

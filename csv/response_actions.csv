@@ -1,0 +1,17 @@
+action_id,incident_id,action_type,status,approved,impact
+ACT001,I001,revoke_test_session,awaiting_approval,False,May sign out the affected test user
+ACT002,I002,isolate_simulated_device,proposed,False,May interrupt test access to S003 and S004
+ACT003,I003,block_simulated_device,proposed,False,Prevents further simulated connections from D006
+ACT004,I008,require_mfa_reverification,proposed,False,May prompt the finance user on FIN-LAP-052 to re-authenticate
+ACT005,I009,suspend_simulated_export_job,proposed,False,May pause scheduled vendor payment exports used for testing
+ACT010,I010,isolate_simulated_endpoint,proposed,False,Potentially disrupts test activity for Engineering; requires human approval
+ACT011,I011,revoke_test_token,proposed,False,Potentially disrupts test activity for IT Operations; requires human approval
+ACT012,I012,review_session,proposed,False,Potentially disrupts test activity for Security; requires human approval
+ACT013,I013,isolate_simulated_endpoint,proposed,False,Potentially disrupts test activity for HR; requires human approval
+ACT014,I014,revoke_test_token,proposed,False,Potentially disrupts test activity for Engineering; requires human approval
+ACT015,I015,review_session,proposed,False,Potentially disrupts test activity for IT Operations; requires human approval
+ACT016,I016,isolate_simulated_endpoint,proposed,False,Potentially disrupts test activity for Customer Support; requires human approval
+ACT017,I017,revoke_test_token,proposed,False,Potentially disrupts test activity for Security; requires human approval
+ACT018,I018,review_session,proposed,False,Potentially disrupts test activity for Finance; requires human approval
+ACT019,I019,isolate_simulated_endpoint,proposed,False,Potentially disrupts test activity for Engineering; requires human approval
+ACT020,I020,revoke_test_token,proposed,False,Potentially disrupts test activity for IT Operations; requires human approval

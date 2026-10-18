@@ -1,0 +1,11 @@
+service_id,name,criticality,owner_department
+S001,Payroll Portal,high,Finance
+S002,Identity Provider,critical,IT Operations
+S003,Source Code Repository,high,Engineering
+S004,Customer Database,critical,Data Platform
+S005,Internal Wiki,low,IT Operations
+S006,Vendor Payments,high,Finance
+S007,Engineering Build System,high,Engineering
+S008,HR Records,high,HR
+S009,Customer Support Console,medium,Customer Support
+S010,Source Code Repository,critical,Engineering
