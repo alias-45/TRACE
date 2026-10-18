@@ -4,7 +4,7 @@ Security incident triage on FalkorDB: a multi-tenant agent that correlates incid
 
 A 2023 survey of 2,000 security operations analysts found SOCs facing an average of roughly 4,500 alerts a day, with most left unaddressed ([Vectra AI, reported by stealthagents.com](https://stealthagents.com/research/cybersecurity-alert-triage-workload-statistics-2026)). The bottleneck isn't reading one alert — it's knowing that this alert and three others from last week point at the same exposed service through a path nobody wrote down. TRACE walks that path in FalkorDB: users, devices and services connected by `LOGGED_IN_FROM`, `CONNECTS_TO` and `HAS_ACCESS_TO`, so two incidents on unrelated devices can still be shown to share a route into the same high-criticality service, with the hops as the evidence.
 
-Built for Graph Hacks (FalkorDB × WeMakeDevs, October 2026). Primary track: **01 Agents That Act on Connected Data**. Partial fit, not separately submitted: **02 Agent Memory and Coordination** (see [Track fit](#track-fit)).
+Built for Graph Hacks (FalkorDB × WeMakeDevs, October 2026). Primary track: **01 Agents That Act on Connected Data**. Partial fit, not separately submitted: **02 Agent Memory and Coordination** 
 
 ## What the graph does here
 
@@ -207,7 +207,7 @@ One submission is judged per track. This repo is submitted to **Track 1**.
 
 ## How AI was used
 
-*(Fill in truthfully before submitting: which parts were written with AI assistance, which design decisions were the team's own, and whether the demo agent itself runs on a paid API or a local model.)*
+The code, tests and docs in this repository were written with AI coding assistants under the author's direction. The design decisions, the choice of concept and the acceptance of each change are the author's. The demo agent itself runs on a local open model, with no paid API.
 
 ## Repository
 
@@ -226,6 +226,4 @@ One submission is judged per track. This repo is submitted to **Track 1**.
 | `check_graph.py`, `query.py` | inspection / one-off Cypher scripts |
 | `README_TENANCY_MCP.md` | deeper notes on tenant auth, native algorithms, and running the MCP server |
 
-## License
 
-No license file is currently included — add one (e.g. MIT) before making the repository public.
