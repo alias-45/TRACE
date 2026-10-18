@@ -150,8 +150,7 @@ pytest tests/   # 21 tests, no FalkorDB required — verified passing in this re
 # 1. FalkorDB
 docker run --rm -p 6379:6379 -p 3000:3000 falkordb/falkordb:latest
 
-# 2. Install and load the synthetic dataset (9 incidents, 14 alerts, 11 devices,
-#    10 users, 6 services, 14 evidence records, 5 proposed actions) into ops:default
+# 2. Install and load the synthetic dataset 
 pip install -r backend/requirements.txt
 python load_trace.py ./csv
 
@@ -161,7 +160,7 @@ cd backend && uvicorn main:app --reload --port 8000
 # 4. Frontend (includes a traversal-depth slider, 1-5)
 cd frontend && npm install && npm run dev
 
-# 5. Optional: MCP server, one tool per catalogue entry
+# 5. MCP server, one tool per catalogue entry
 cd backend && python mcp_server.py
 ```
 
